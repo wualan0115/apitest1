@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>TestNG:  商品管理</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>商品管理</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Aug 11 15:20:09 CST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>4 seconds (4383 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='GoodsAddTest.testAddDuplicateGoods()'><b>testAddDuplicateGoods</b><br>Test class: GoodsAddTest<br>Test method: 添加重复商品</td>
+<td></td>
+<td>0</td>
+<td>GoodsAddTest@44c8afef</td></tr>
+<tr>
+<td title='GoodsAddTest.testAddGoods()'><b>testAddGoods</b><br>Test class: GoodsAddTest<br>Test method: 新增商品</td>
+<td></td>
+<td>1</td>
+<td>GoodsAddTest@44c8afef</td></tr>
+<tr>
+<td title='GoodsDeleteTest.testDeleteGoods()'><b>testDeleteGoods</b><br>Test class: GoodsDeleteTest<br>Test method: 删除商品</td>
+<td></td>
+<td>0</td>
+<td>GoodsDeleteTest@262b2c86</td></tr>
+<tr>
+<td title='GoodsAddTest.testDismissParam()'><b>testDismissParam</b><br>Test class: GoodsAddTest<br>Test method: 缺少参数</td>
+<td></td>
+<td>0</td>
+<td>GoodsAddTest@44c8afef</td></tr>
+<tr>
+<td title='GoodsListTest.testGoodsList()'><b>testGoodsList</b><br>Test class: GoodsListTest<br>Test method: 商品列表</td>
+<td></td>
+<td>0</td>
+<td>GoodsListTest@46daef40</td></tr>
+<tr>
+<td title='GoodsStoreTest.testMaintanceStore()'><b>testMaintanceStore</b><br>Test class: GoodsStoreTest<br>Test method: 库存维护</td>
+<td></td>
+<td>0</td>
+<td>GoodsStoreTest@12f41634</td></tr>
+<tr>
+<td title='GoodsStoreTest.testOldGoodsSaveStock()'><b>testOldGoodsSaveStock</b><br>Test class: GoodsStoreTest<br>Test method: 已有库存商品进货</td>
+<td></td>
+<td>0</td>
+<td>GoodsStoreTest@12f41634</td></tr>
+<tr>
+<td title='GoodsStoreTest.testSaveStock()'><b>testSaveStock</b><br>Test class: GoodsStoreTest<br>Test method: 新商品进货</td>
+<td></td>
+<td>0</td>
+<td>GoodsStoreTest@12f41634</td></tr>
+<tr>
+<td title='GoodsListTest.testSearchByGoodsname()'><b>testSearchByGoodsname</b><br>Test class: GoodsListTest<br>Test method: 根据商品名称搜索</td>
+<td></td>
+<td>0</td>
+<td>GoodsListTest@46daef40</td></tr>
+<tr>
+<td title='GoodsListTest.testSearchGoodsByCat()'><b>testSearchGoodsByCat</b><br>Test class: GoodsListTest<br>Test method: 根据类别查询商品</td>
+<td></td>
+<td>0</td>
+<td>GoodsListTest@46daef40</td></tr>
+<tr>
+<td title='GoodsStoreListTest.testSearchStore()'><b>testSearchStore</b><br>Test class: GoodsStoreListTest<br>Test method: 库存列表根据名称或者编号搜索</td>
+<td></td>
+<td>0</td>
+<td>GoodsStoreListTest@13c27452</td></tr>
+</table><p>
+</body>
+</html>

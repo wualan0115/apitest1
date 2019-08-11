@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="15.635" tests="42" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="HelloJenkins"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="78679c556cc2b6bf"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_66\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_66\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\WINDOWS\TEMP"/>
+    <property name="java.runtime.version" value="1.8.0_66-b18"/>
+    <property name="ANT_HOME" value="C:\Tool\apache-ant-1.10.6"/>
+    <property name="WINSW_SERVICE_ID" value="Jenkins"/>
+    <property name="user.name" value="LAPTOP-NGKP0VFT$"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
+    <property name="user.language" value="zh"/>
+    <property name="JOB_BASE_NAME" value="HelloJenkins"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://192.168.56.1:8080/jenkins/job/HelloJenkins/1/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_66\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
+    <property name="java.version" value="1.8.0_66"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="USERNAME" value="LAPTOP-NGKP0VFT$"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
+    <property name="classpath" value=""/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_66\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="1"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="CN"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_66\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="CLOUDENGINE_HOME" value="C:\Tool\repos\com\alipay\cloudengine"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://192.168.56.1:8080/jenkins/job/HelloJenkins/1/display/redirect"/>
+    <property name="VISUALSVN_SERVER" value="C:\Program Files\VisualSVN Server\"/>
+    <property name="configsetroot" value="C:\WINDOWS\ConfigSetRoot"/>
+    <property name="TMP" value="C:\WINDOWS\TEMP"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.66-b18"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://192.168.56.1:8080/jenkins/job/HelloJenkins/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_66"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="SERVICE_ID" value="Jenkins"/>
+    <property name="COMPUTERNAME" value="LAPTOP-NGKP0VFT"/>
+    <property name="user.script" value=""/>
+    <property name="VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-HelloJenkins-1"/>
+    <property name="JENKINS_SERVER_COOKIE" value="78679c556cc2b6bf"/>
+    <property name="HUDSON_URL" value="http://192.168.56.1:8080/jenkins/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_66\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\study\testfan\tool\apache-maven-3.3.9/bin;C:\Program Files\Java\jdk1.8.0_66/bin;C:\Program Files\Java\jdk1.8.0_66/bin;C:\Program Files (x86)\OpenSSH\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Java\jdk1.8.0_66\bin;C:\Program Files\Java\jre1.8.0_66\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\study\testfan\tool\apache-maven-3.3.9\bin;C:\Tool\adt-bundle\sdk\platform-tools;C:\Tool\adt-bundle\sdk\tools;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="CYGWIN" value="tty"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="JMETER_HOME" value="C:\Tool\apache-jmeter-4.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\study\testfan\tool\apache-maven-3.3.9"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-agent-1.12.jar;C:\study\testfan\tool\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;C:\study\testfan\tool\apache-maven-3.3.9/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven33Main C:\study\testfan\tool\apache-maven-3.3.9 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.29.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-interceptor-1.12.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar 50160"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_66/bin;C:\Program Files (x86)\OpenSSH\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Java\jdk1.8.0_66\bin;C:\Program Files\Java\jre1.8.0_66\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\study\testfan\tool\apache-maven-3.3.9\bin;C:\Tool\adt-bundle\sdk\platform-tools;C:\Tool\adt-bundle\sdk\tools;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_66/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 9, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\study\testfan\tool\apache-maven-3.3.9"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="PATH+MAVEN" value="C:\study\testfan\tool\apache-maven-3.3.9/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://192.168.56.1:8080/jenkins/job/HelloJenkins/1/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\study\autoApi"/>
+    <property name="JOB_URL" value="http://192.168.56.1:8080/jenkins/job/HelloJenkins/"/>
+    <property name="USERDOMAIN" value="WORKGROUP"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="C:\study\testfan\tool\apache-maven-3.3.9"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="1"/>
+    <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="ANDROID_HOME" value="C:\Tool\adt-bundle\sdk"/>
+    <property name="JENKINS_URL" value="http://192.168.56.1:8080/jenkins/"/>
+    <property name="PROCESSOR_REVISION" value="8e09"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-interceptor-1.12.jar"/>
+    <property name="WORKSPACE" value="C:\Program Files (x86)\Jenkins\workspace\HelloJenkins"/>
+    <property name="maven3.interceptor.common" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar"/>
+    <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Program Files (x86)\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\VisualSVN Server\PowerShellModules"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+  </properties>
+  <testcase name="testAddUser" classname="UserAddTest" time="0.645"/>
+  <testcase name="testDismissParam" classname="UserAddTest" time="0.103"/>
+  <testcase name="testAddDuplicateUser" classname="UserAddTest" time="0.046"/>
+  <testcase name="testDismissParam" classname="UserEditTest" time="0.082"/>
+  <testcase name="testEditMember1" classname="UserEditTest" time="0.15"/>
+  <testcase name="testEditMember1" classname="UserEditTest" time="0.158"/>
+  <testcase name="testSpeChar" classname="UserEditTest" time="0.126"/>
+  <testcase name="testSearchByuname" classname="UserListTest" time="0.074"/>
+  <testcase name="testDeleteUser" classname="UserDeleteTest" time="0.052"/>
+  <testcase name="testDeleteNotExistUser" classname="UserDeleteTest" time="0.048">
+    <failure message="expected [0] but found [1]" type="java.lang.AssertionError">java.lang.AssertionError: expected [0] but found [1]
+	at UserDeleteTest.testDeleteNotExistUser(UserDeleteTest.java:53)
+</failure>
+    <system-out><![CDATA[testDeleteUser 运行通过************
+testDeleteNotExistUser开始执行**************
+DeleteUser响应结果--------------{"result":1,"message":"删除成功"}
+]]></system-out>
+  </testcase>
+  <testcase name="testAddGoods" classname="GoodsAddTest" time="1.297"/>
+  <testcase name="testDismissParam" classname="GoodsAddTest" time="0.187"/>
+  <testcase name="testAddDuplicateGoods" classname="GoodsAddTest" time="0.162"/>
+  <testcase name="testGoodsList" classname="GoodsListTest" time="0.18"/>
+  <testcase name="testSearchByGoodsname" classname="GoodsListTest" time="0.106"/>
+  <testcase name="testSearchGoodsByCat" classname="GoodsListTest" time="0.136"/>
+  <testcase name="testOldGoodsSaveStock" classname="GoodsStoreTest" time="0.645"/>
+  <testcase name="testSaveStock" classname="GoodsStoreTest" time="0.666"/>
+  <testcase name="testMaintanceStore" classname="GoodsStoreTest" time="0.602"/>
+  <testcase name="testSearchStore" classname="GoodsStoreListTest" time="0.082"/>
+  <testcase name="testDeleteGoods" classname="GoodsDeleteTest" time="0.231"/>
+  <testcase name="testAddCat" classname="CatAddTest" time="0.411"/>
+  <testcase name="testAddsubCat" classname="CatAddTest" time="0.362"/>
+  <testcase name="testCatList" classname="CatListTest" time="0.629"/>
+  <testcase name="testOrderCat" classname="CatOrderTest" time="1.853"/>
+  <testcase name="testDeleteCat" classname="CatDeleteTest" time="0.04"/>
+  <testcase name="testDeleteSubCat" classname="CatDeleteTest" time="0.064"/>
+  <testcase name="testAddBrand" classname="BrandAddTest" time="0.154"/>
+  <testcase name="testBrandList" classname="BrandListTest" time="0.197"/>
+  <testcase name="testSearchBrand" classname="BrandListTest" time="0.056"/>
+  <testcase name="testDeleteBrand" classname="BrandDeleteTest" time="0.068"/>
+  <testcase name="testAddType" classname="TypeAddTest" time="0.264"/>
+  <testcase name="testSaveBrand" classname="TypeSetTest" time="0.29"/>
+  <testcase name="testSaveParam" classname="TypeSetTest" time="0.197"/>
+  <testcase name="testSaveProps" classname="TypeSetTest" time="0.229"/>
+  <testcase name="testTypeList" classname="TypeListTest" time="0.155"/>
+  <testcase name="testAddBonus" classname="BonusAddTest" time="0.167"/>
+  <testcase name="testSendBonusByMem" classname="BonusOperationTest" time="0.474"/>
+  <testcase name="testSendBonusByMemLv" classname="BonusOperationTest" time="0.401"/>
+  <testcase name="testViewBonusDetail" classname="BonusOperationTest" time="0.071"/>
+  <testcase name="testBonusList" classname="BonusListTest" time="0.092"/>
+  <testcase name="testDeleteBonus" classname="BonusDeleteTest" time="0.168"/>
+</testsuite>

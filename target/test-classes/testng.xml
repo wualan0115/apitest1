@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!-- 配置监听器实现测试报告的生成,报告路径在report中配置 -->
+	<listeners>
+		<listener
+			class-name="report.TestListner" />
+	</listeners>
+	<test
+		name="会员管理"
+		preserve-order="true">
+		<classes>
+			<class name="UserAddTest" />
+			<class name="UserEditTest" />
+			<class name="UserListTest" />
+			<class name="UserDeleteTest" />
+		</classes>
+	</test>
+	<test
+			name="商品管理"
+			preserve-order="true">
+		<classes>
+			<class name="GoodsAddTest" />
+			<class name="GoodsListTest" />
+			<class name="GoodsStoreTest" />
+			<class name="GoodsStoreListTest" />
+			<class name="GoodsDeleteTest" />
+		</classes>
+	</test>
+	<test
+			name="分类管理"
+			preserve-order="true">
+		<classes>
+			<class name="CatAddTest" />
+			<class name="CatListTest" />
+			<class name="CatOrderTest" />
+			<class name="CatDeleteTest" />
+		</classes>
+	</test>
+	<test
+			name="品牌管理"
+			preserve-order="true">
+		<classes>
+			<class name="BrandAddTest" />
+			<class name="BrandListTest" />
+			<class name="BrandDeleteTest" />
+		</classes>
+	</test>
+	<test
+			name="类型管理"
+			preserve-order="true">
+		<classes>
+			<class name="TypeAddTest" />
+			<class name="TypeSetTest" />
+			<class name="TypeListTest" />
+		</classes>
+	</test>
+	<test
+			name="促销"
+			preserve-order="true">
+		<classes>
+			<class name="BonusAddTest" />
+			<class name="BonusOperationTest" />
+			<class name="BonusListTest" />
+			<class name="BonusDeleteTest" />
+		</classes>
+	</test>
+
+
+</suite> 

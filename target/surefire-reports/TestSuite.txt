@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 42, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.635 sec <<< FAILURE! - in TestSuite
+testDeleteNotExistUser(UserDeleteTest)  Time elapsed: 0.048 sec  <<< FAILURE!
+java.lang.AssertionError: expected [0] but found [1]
+	at UserDeleteTest.testDeleteNotExistUser(UserDeleteTest.java:53)
+

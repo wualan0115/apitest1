@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="report.TestListner"/>
+  </listeners>
+  <test name="会员管理">
+    <classes>
+      <class name="UserAddTest"/>
+      <class name="UserEditTest"/>
+      <class name="UserListTest"/>
+      <class name="UserDeleteTest"/>
+    </classes>
+  </test> <!-- 会员管理 -->
+  <test name="商品管理">
+    <classes>
+      <class name="GoodsAddTest"/>
+      <class name="GoodsListTest"/>
+      <class name="GoodsStoreTest"/>
+      <class name="GoodsStoreListTest"/>
+      <class name="GoodsDeleteTest"/>
+    </classes>
+  </test> <!-- 商品管理 -->
+  <test name="分类管理">
+    <classes>
+      <class name="CatAddTest"/>
+      <class name="CatListTest"/>
+      <class name="CatOrderTest"/>
+      <class name="CatDeleteTest"/>
+    </classes>
+  </test> <!-- 分类管理 -->
+  <test name="品牌管理">
+    <classes>
+      <class name="BrandAddTest"/>
+      <class name="BrandListTest"/>
+      <class name="BrandDeleteTest"/>
+    </classes>
+  </test> <!-- 品牌管理 -->
+  <test name="类型管理">
+    <classes>
+      <class name="TypeAddTest"/>
+      <class name="TypeSetTest"/>
+      <class name="TypeListTest"/>
+    </classes>
+  </test> <!-- 类型管理 -->
+  <test name="促销">
+    <classes>
+      <class name="BonusAddTest"/>
+      <class name="BonusOperationTest"/>
+      <class name="BonusListTest"/>
+      <class name="BonusDeleteTest"/>
+    </classes>
+  </test> <!-- 促销 -->
+  <test name="会员管理(failed)">
+    <classes>
+      <class name="UserListTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- UserListTest -->
+      <class name="BonusDeleteTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- BonusDeleteTest -->
+      <class name="BrandDeleteTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- BrandDeleteTest -->
+      <class name="GoodsStoreTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- GoodsStoreTest -->
+      <class name="GoodsStoreListTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- GoodsStoreListTest -->
+      <class name="GoodsDeleteTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- GoodsDeleteTest -->
+      <class name="TypeListTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TypeListTest -->
+      <class name="BonusOperationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- BonusOperationTest -->
+      <class name="CatListTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- CatListTest -->
+      <class name="BrandAddTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- BrandAddTest -->
+      <class name="BonusAddTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- BonusAddTest -->
+      <class name="GoodsAddTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- GoodsAddTest -->
+      <class name="CatAddTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- CatAddTest -->
+      <class name="BonusListTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- BonusListTest -->
+      <class name="UserAddTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- UserAddTest -->
+      <class name="TypeAddTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TypeAddTest -->
+      <class name="UserEditTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- UserEditTest -->
+      <class name="CatOrderTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- CatOrderTest -->
+      <class name="CatDeleteTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- CatDeleteTest -->
+      <class name="TypeSetTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TypeSetTest -->
+      <class name="UserDeleteTest">
+        <methods>
+          <include name="testDeleteUser"/>
+          <include name="setUp"/>
+          <include name="testDeleteNotExistUser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- UserDeleteTest -->
+      <class name="GoodsListTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- GoodsListTest -->
+      <class name="BrandListTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- BrandListTest -->
+    </classes>
+  </test> <!-- 会员管理(failed) -->
+</suite> <!-- Failed suite [Suite] -->
